@@ -1,0 +1,41 @@
+*:focus {
+    outline: none;
+}
+
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+input[type = "number"],input[type="text"]{
+    width: 30em;
+    height: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.356);
+    border-radius: 5px;
+    margin-top: 1.2em;
+    padding: 0.6em;
+    padding-left: 1em;
+}
+button{
+    width:15em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: aquamarine;
+    margin-top: 1.5em;
+    padding: 10px 0px;
+}
+button:hover{
+    /* background-color: rgba(127, 255, 212, 0.548); */
+    background-color: transparent;
+    border: 2px solid aquamarine;
+}
